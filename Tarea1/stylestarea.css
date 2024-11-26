@@ -1,0 +1,151 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+/* Sección Acerca de mí */
+.about {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Sección Experiencia Profesional */
+.experience {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.experience ul {
+    list-style-type: none;
+}
+
+.experience li {
+    margin-bottom: 15px;
+}
+
+.experience h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.experience p {
+    font-size: 16px;
+}
+
+/* Sección Educación */
+.education {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style-type: none;
+}
+
+.education li {
+    margin-bottom: 15px;
+}
+
+.education h3 {
+    font-size: 22px;
+}
+
+/* Sección Habilidades */
+.skills {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a2a2a;
+    color: white;
+}
